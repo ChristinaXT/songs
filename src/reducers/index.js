@@ -6,3 +6,7 @@ const songsReducer = () => {
     { title: 'I Want it That Way', duration: '1:45' }
   ];
 };
+
+const selectedSongReducer = (selectedSong=null) => {
+
+};
