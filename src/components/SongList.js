@@ -3,8 +3,10 @@ import { connect } from 'react-redux';
 
 class SongList extends Component {
   renderList() {
-    return this.props.songs.map(() => {
-
+    return this.props.songs.map((song) => {
+       return (
+         
+       );
     });
   }
 
