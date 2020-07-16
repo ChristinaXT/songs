@@ -6,6 +6,9 @@ class SongList extends Component {
     return this.props.songs.map((song) => {
        return (
          <div className="item" key={song.title}>
+           <div className="right floated content">
+           </div>
+        </div>   
        );
     });
   }
