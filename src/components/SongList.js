@@ -7,4 +7,10 @@ class SongList extends Component {
   }
 }
 
+const mapStateToProps = (state) => {
+  console.log(state);
+
+  return state;
+}
+
 export default connect()(SongList);
