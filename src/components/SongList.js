@@ -9,7 +9,9 @@ class SongList extends Component {
            <div className="right floated content">
              <button className="ui button primary">
                Select
+               </button>
            </div>
+           <div className="content">{song.title}</div>
         </div>
        );
     });
