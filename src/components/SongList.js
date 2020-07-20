@@ -18,7 +18,7 @@ class SongList extends Component {
   }
 
   render() {
-    return <div>SongList</div>;
+    return <div>{this.renderList()}</div>;
   }
 }
 
