@@ -6,7 +6,13 @@ const SongDetail = ({ song }) => {
      return <div>Select a Song</div>;
    }
 
-   return <div>{song.title}</div>;
+   return (
+     <div>
+       <h3>Details for:</h3>
+       <p>Title: {song.title}</p>
+
+     </div>
+   );
 };
 
 const mapStateToProps = (state) => {
