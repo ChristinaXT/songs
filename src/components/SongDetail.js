@@ -10,4 +10,4 @@ const mapStateToProps = (state) => {
   return { song: state.selectSong }
 };
 
-export default connect(mapStateToProps) SongDetail;
+export default connect(mapStateToProps) (SongDetail);
